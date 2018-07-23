@@ -12,7 +12,6 @@ import (
 	cmds "github.com/ipfs/go-ipfs/commands"
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
 	"github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	inet "gx/ipfs/QmPjvxTpVH8qJyQDnxnsxF9kv9jezKD1kozz1hs3fCGsNh/go-libp2p-net"
@@ -21,6 +20,7 @@ import (
 	iaddr "gx/ipfs/QmWUtfQveCqT8cgNzN54at4sDMiFbANFRFCXuSDiTqJwC8/go-ipfs-addr"
 	ma "gx/ipfs/QmYmsdtJ3HsodkePE3eU3TsCaP2YvPZJ4LoXnNkDE5Tpt7/go-multiaddr"
 	pstore "gx/ipfs/QmZR2XWVVBCtbgBWnQhWk2xcQfaR3W8faQPriAiaaj7rsr/go-libp2p-peerstore"
+	config "gx/ipfs/QmbfPqH4QFLQWdfXa111eBKgdTiLkZv2Pc4Qpm2byUeByU/go-ipfs-config"
 	cmdkit "gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 	peer "gx/ipfs/QmdVrMn1LhB4ybb8hMVaMLXnA8XRSewMnK6YqXKXoTcRvN/go-libp2p-peer"
 )

@@ -13,12 +13,12 @@ import (
 	lgc "github.com/ipfs/go-ipfs/commands/legacy"
 	e "github.com/ipfs/go-ipfs/core/commands/e"
 	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	config "github.com/ipfs/go-ipfs/repo/config"
 	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
 
 	cmds "gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds"
 	bstore "gx/ipfs/QmRatnbGjPcoyzVjfixMZnuT1xQbjM7FgnL6FX4CKJeDE2/go-ipfs-blockstore"
 	cid "gx/ipfs/QmYVNvtQkeZ6AKSwDrjQTs432QtL6umrrK41EBq3cu7iSP/go-cid"
+	config "gx/ipfs/QmbfPqH4QFLQWdfXa111eBKgdTiLkZv2Pc4Qpm2byUeByU/go-ipfs-config"
 	cmdkit "gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 )
 

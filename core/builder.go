@@ -15,7 +15,6 @@ import (
 	resolver "github.com/ipfs/go-ipfs/path/resolver"
 	pin "github.com/ipfs/go-ipfs/pin"
 	repo "github.com/ipfs/go-ipfs/repo"
-	cfg "github.com/ipfs/go-ipfs/repo/config"
 	"github.com/ipfs/go-ipfs/thirdparty/verifbs"
 	uio "github.com/ipfs/go-ipfs/unixfs/io"
 
@@ -27,6 +26,7 @@ import (
 	libp2p "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p"
 	pstore "gx/ipfs/QmZR2XWVVBCtbgBWnQhWk2xcQfaR3W8faQPriAiaaj7rsr/go-libp2p-peerstore"
 	p2phost "gx/ipfs/Qmb8T6YBBsjYsVGfrihQLfCJveczZnneSBqBKkYEBWDjge/go-libp2p-host"
+	cfg "gx/ipfs/QmbfPqH4QFLQWdfXa111eBKgdTiLkZv2Pc4Qpm2byUeByU/go-ipfs-config"
 	peer "gx/ipfs/QmdVrMn1LhB4ybb8hMVaMLXnA8XRSewMnK6YqXKXoTcRvN/go-libp2p-peer"
 	ipns "gx/ipfs/Qmdue1XShFNi3mpizGx9NR9hyNEj6U2wEW93yGhKqKCFGN/go-ipns"
 	ci "gx/ipfs/Qme1knMqwt1hKZbc1BmQFmnm9f36nyQGwXxPGVpVJ9rMK5/go-libp2p-crypto"
